@@ -1,0 +1,122 @@
+/* ==============
+  General
+===================*/
+
+body {
+  background-repeat: repeat;
+  background: $bg-body;
+  font-family: $font-family;
+  color: $body-color;
+  font-size: $base-font;
+}
+
+@media (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+html {
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0;
+  font-family: $font-family-secondary;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+p{
+  line-height: 1.7;
+}
+
+svg {
+  max-width: 100%;
+}
+
+a {
+  color: $gray-600;
+
+  &:hover, &:active, &:focus {
+    outline: 0;
+    text-decoration: none;
+  }
+}
+
+b, strong {
+  font-weight: 500;
+}
+
+.container-alt {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#wrapper {
+  height: $height;
+  overflow: hidden;
+  width: $width;
+}
+
+// Slimscroll
+.slimScrollDiv {
+  height: auto !important;
+}
+
+/* Social */
+.social-links {
+  li {
+    a {
+      border-radius: 50%;
+      display: inline-block;
+      height: 30px;
+      line-height: 30px;
+      width: 30px;
+      text-align: center;
+    }
+  }
+}
+
+//Content of PopUp Modal
+.modal-content{
+  margin-top: 50%;
+  .modal-header{
+    padding: 0.3rem 1rem 0.2rem;
+    .modal-title{font-size: 14px;}
+  }
+  .modal-footer{
+    padding: 0.2rem;
+    .btn{font-size: 13px;}
+  }
+}
+
+
+// Alert Box
+.alert-box{
+  position: fixed;
+    right: 1%;
+    top:20%;
+    z-index: 99999999999;
+    width: 20%;
+    .alert-body{
+      display: flex;
+      justify-content: space-between;
+    }
+}
+
+.form-control,.form-control:disabled, .form-control[readonly]{
+  /* background-color: #f8f9faa6;*/
+  background-color: #fff;
+ }
+
+ .form-control,.form-control:disabled, .form-control[readonly]{
+  /* background-color: #f8f9faa6;*/
+  background-color: #fff;
+ }

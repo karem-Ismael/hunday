@@ -1,0 +1,33 @@
+
+.products {
+  border-left: 1px solid #ccc;
+  margin-left: 0;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 0 !important;
+  margin: 15px 0px 37px 0px;
+  .allItem {
+    padding: 0 20px;
+  }
+  .productSearch {
+    //   margin: 20px 0 0 0;
+  }
+  .card {
+    padding-right: 0;
+    margin-left: 0;
+    padding: 20px 10px;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    max-height: 351px;
+    .card-img,
+    .card-img-top {
+      margin: 0 auto;
+      width: 160px;
+      height: 110px;
+    }
+  }
+  .card-body {
+    padding: 0;
+  }
+}

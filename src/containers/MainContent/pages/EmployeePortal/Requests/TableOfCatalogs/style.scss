@@ -1,0 +1,35 @@
+.products {
+  border-left: 1px solid #ccc;
+  margin-left: 0;
+  background-color: #fff;
+  padding: 20px ;
+  border-radius: 2px;
+  .productSearch{
+    //   margin: 20px 0 0 0;
+      
+  }
+  .card {
+    padding-right: 0;
+    margin-left: 0;
+    padding: 20px 10px;
+    border-radius: 1;
+    margin-bottom: 10px;
+  }
+  .card-body {
+    padding: 0;
+  }
+}
+.dataTable{
+  margin: 15px 0;
+  padding: 20px;
+  .dataTables_info{
+    margin: 15px 0;
+  }
+  .dataTables_paginate {
+    margin: 12px 0;
+    // float: right;
+}
+  .dataTable_scrollBody{
+    border: 1px solid #ddd;
+  }
+}

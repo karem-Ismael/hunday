@@ -1,0 +1,92 @@
+.swal2-image {
+  width: 350px !important;
+  height: 250px !important;
+}
+.filter {
+  /**For Vichel Search**/
+  padding: 35px 20px;
+  .filterVeichle {
+    -webkit-box-shadow: 0px 0px 0px 0px #000;
+    -moz-box-shadow: 0px 0px 0px 0px #000;
+    -o-box-shadow: 0px 0px 0px 0px #000;
+    box-shadow: 0px 0px 0px 0px #000;
+    background: rgb(238, 238, 238);
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+
+    .btnSearch {
+      border-bottom: 1px solid #000;
+      border-radius: 0 !important;
+      font-weight: 500;
+    }
+    .btnSearch:focus {
+      box-shadow: none;
+    }
+    .search {
+      margin: 20px 0;
+      .searchBy,
+      .custTag {
+        margin: 10px 0;
+        label {
+          position: relative;
+          top: 7px;
+        }
+      }
+    }
+    .btnGet {
+      margin: 2px;
+      padding: 5px;
+      // background: #7d8184;
+    }
+    .btnGet:focus {
+      color: none;
+    }
+    .searchButton {
+      display: flex;
+      margin: 5px auto;
+      padding: 6px;
+      .searchIcon {
+        float: left;
+        padding: 4px 11px 0 0px;
+      }
+    }
+  }
+  /**For Cat Search**/
+  .filterCat {
+    -webkit-box-shadow: 0px 0px 2px 0px #000;
+    -moz-box-shadow: 0px 0px 2px 0px #000;
+    -o-box-shadow: 0px 0px 2px 0px #000;
+    box-shadow: 0px 0px 2px 0px #000;
+    background: rgb(238, 238, 238);
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    margin: 10px 0;
+    .btnSearch {
+      border-bottom: 1px solid #000;
+      border-radius: 0 !important;
+      font-weight: 500;
+    }
+    .btnSearch:focus {
+      box-shadow: none;
+    }
+    .search {
+      margin: 20px 0;
+    }
+    .searchBy,
+    .custTag,
+    .type,
+    .year,
+    .region,
+    .catalogue {
+      margin: 10px 0;
+      label {
+        position: relative;
+        top: 7px;
+      }
+    }
+  }
+}
